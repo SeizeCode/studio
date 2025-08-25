@@ -3,7 +3,7 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: "CricApp Academy",
+  title: "Prestige Cricket Academy",
   description: "The premier cricket academy for aspiring champions.",
 };
 

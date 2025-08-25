@@ -29,7 +29,7 @@ const events = [
     title: "Academy Open Day",
     date: "August 1, 2024",
     time: "11:00 AM - 3:00 PM",
-    location: "CricApp Academy Complex",
+    location: "Prestige Cricket Academy Complex",
     description: "Join us for a free open day to tour our facilities, meet the coaches, and see what we offer.",
   },
 ];

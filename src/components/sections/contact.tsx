@@ -121,7 +121,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg">Email Us</h4>
-                  <p className="text-muted-foreground">contact@cricappacademy.com</p>
+                  <p className="text-muted-foreground">contact@prestigeacademy.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">

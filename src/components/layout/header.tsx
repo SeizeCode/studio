@@ -1,12 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { CricketIcon } from "../cricket-icon";
+import { PrestigeLogo } from "../prestige-logo";
 
 const navLinks = [
   { href: "#events", label: "Events" },
@@ -23,9 +23,9 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-7xl items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <CricketIcon className="h-8 w-8" />
+          <PrestigeLogo className="h-8 w-8" />
           <span className="font-headline text-xl font-bold text-primary">
-            CricApp Academy
+            Prestige Cricket Academy
           </span>
         </Link>
 
@@ -53,8 +53,8 @@ export default function Header() {
               <div className="flex h-full flex-col">
                 <div className="flex items-center justify-between border-b pb-2">
                   <Link href="/" className="flex items-center gap-2" onClick={() => setSheetOpen(false)}>
-                    <CricketIcon className="h-6 w-6" />
-                    <span className="font-headline text-lg font-bold text-primary">CricApp</span>
+                    <PrestigeLogo className="h-6 w-6" />
+                    <span className="font-headline text-lg font-bold text-primary">Prestige</span>
                   </Link>
                 </div>
                 <nav className="mt-6 flex flex-col gap-4">
