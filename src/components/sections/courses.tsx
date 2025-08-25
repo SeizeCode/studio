@@ -57,7 +57,7 @@ export default function CoursesSection() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {courses.map((course, index) => (
-            <Card key={index} className="flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
+            <Card key={index} className="flex flex-col transform hover:-translate-y-2 transition-transform duration-300 group">
               <CardHeader className="items-center text-center">
                 {course.icon}
                 <CardTitle className="font-headline text-2xl pt-4">{course.title}</CardTitle>
@@ -74,7 +74,7 @@ export default function CoursesSection() {
                 </ul>
               </CardContent>
               <div className="p-6 pt-0 mt-auto">
-                <Button className="w-full" variant="outline">
+                <Button className="w-full group-hover:bg-primary group-hover:text-primary-foreground" variant="outline">
                   Learn More
                 </Button>
               </div>

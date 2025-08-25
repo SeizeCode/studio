@@ -45,7 +45,7 @@ export default function CoachesSection() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {coaches.map((coach, index) => (
-            <Card key={index} className="text-center overflow-hidden">
+            <Card key={index} className="text-center overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-primary">
               <CardHeader className="items-center bg-secondary p-6">
                 <Avatar className="h-24 w-24 border-4 border-white">
                   <AvatarImage src={coach.avatar} alt={coach.name} data-ai-hint={coach.hint} />
