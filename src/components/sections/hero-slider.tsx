@@ -65,9 +65,8 @@ export default function HeroSlider() {
                   data-ai-hint={slide.hint}
                   priority={index === 0}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/20" />
                 <div className="absolute inset-0 flex items-center justify-center text-center text-white">
-                  <div className="container max-w-4xl animate-fade-in-up space-y-4">
+                  <div className="container max-w-4xl animate-fade-in-up space-y-4 bg-black/50 p-8 rounded-lg">
                     <h1 className="font-headline text-4xl font-bold tracking-tight md:text-6xl lg:text-7xl">
                       {slide.title}
                     </h1>
