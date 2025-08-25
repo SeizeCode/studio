@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container mx-auto max-w-7xl px-4 py-8">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="flex items-center gap-2">
-            <PrestigeLogo className="h-8 w-8" />
+            <PrestigeLogo className="h-10 w-10" />
             <span className="font-headline text-xl font-bold text-primary">
               Prestige Cricket Academy
             </span>

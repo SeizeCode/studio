@@ -23,7 +23,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-7xl items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <PrestigeLogo className="h-8 w-8" />
+          <PrestigeLogo className="h-10 w-10" />
           <span className="font-headline text-xl font-bold text-primary">
             Prestige Cricket Academy
           </span>
@@ -53,7 +53,7 @@ export default function Header() {
               <div className="flex h-full flex-col">
                 <div className="flex items-center justify-between border-b pb-2">
                   <Link href="/" className="flex items-center gap-2" onClick={() => setSheetOpen(false)}>
-                    <PrestigeLogo className="h-6 w-6" />
+                    <PrestigeLogo className="h-8 w-8" />
                     <span className="font-headline text-lg font-bold text-primary">Prestige</span>
                   </Link>
                 </div>
