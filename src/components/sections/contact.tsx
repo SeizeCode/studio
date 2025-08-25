@@ -112,7 +112,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg">Our Address</h4>
-                  <p className="text-muted-foreground">123 Cricket Lane, Sportsville, SP 45678</p>
+                  <p className="text-muted-foreground">Plot 171, Kosmos Avenue, Grootvlei, Pretoria, 0120</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -136,7 +136,7 @@ export default function ContactSection() {
             </div>
              <div className="aspect-video rounded-lg overflow-hidden">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086208993206!2d-122.4194154846813!3d37.77492957975871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c1e8f3a3f%3A0x1e6a5bdfac2f2d91!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1620914441999!5m2!1sen!2s"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14342.98134701449!2d28.216853!3d-25.99266!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956e0231fed26b%3A0xd44be0c1ee1b2f6b!2sPrestige%20College!5e0!3m2!1sen!2sus!4v1721931088556!5m2!1sen!2sus"
                     className="w-full h-full"
                     style={{ border: 0 }}
                     allowFullScreen={false}
