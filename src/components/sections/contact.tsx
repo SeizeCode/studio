@@ -112,7 +112,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg">Our Address</h4>
-                  <p className="text-muted-foreground">Plot 171, Kosmos Avenue, Grootvlei, Pretoria, 0120</p>
+                  <p className="text-muted-foreground">Farm 116 Klipdrift, 1 Eike Street, Hammanskraal, 0407</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
