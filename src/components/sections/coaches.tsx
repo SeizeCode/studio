@@ -4,32 +4,32 @@ import Image from "next/image";
 
 const coaches = [
   {
-    name: "Johnathan Smith",
-    role: "Head Coach & Batting Guru",
+    name: "Nkosinathi Msiza",
+    role: " Prestige u13A Head Coach & Batting Guru",
     avatar: "https://picsum.photos/128/128",
     hint: "professional portrait",
-    bio: "Former international player with over 15 years of coaching experience at the highest level.",
+    bio: "Nkosinathi Msiza's Boi here ...................",
   },
   {
-    name: "Aisha Khan",
+    name: "Gontse Phuthi",
     role: "Pace Bowling Specialist",
     avatar: "https://picsum.photos/128/128",
     hint: "professional portrait",
-    bio: "Known for her technical prowess, Aisha has mentored several international fast bowlers.",
+    bio: "Gontse Phuthi boi here ...............",
   },
   {
-    name: "Michael Chen",
+    name: "Coach Tebatso ",
     role: "Fielding & Fitness Coach",
     avatar: "https://picsum.photos/128/128",
     hint: "professional portrait",
-    bio: "A certified strength and conditioning expert who brings modern techniques to fielding.",
+    bio: "Tebatso boi here .......................",
   },
   {
-    name: "Samantha Lee",
+    name: "Coach #########",
     role: "Spin Bowling Virtuoso",
     avatar: "https://picsum.photos/128/128",
     hint: "professional portrait",
-    bio: "A master of spin, Samantha teaches the art of deception and control.",
+    bio: "Coach Boi here ................. ",
   },
 ];
 
