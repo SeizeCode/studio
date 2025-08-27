@@ -10,9 +10,11 @@ import Autoplay from "embla-carousel-autoplay";
 
 const backgroundImages = [
   {
-    src: "/events-bg-1.jpg",
+    
+    src: "/logo.png",
     alt: "Cricket match action shot",
     hint: "cricket match",
+  
   },
   {
     src: "/events-bg-2.jpg",
@@ -20,7 +22,7 @@ const backgroundImages = [
     hint: "cricket training",
   },
   {
-    src: "/events-bg-3.jpg",
+    src: "/events-bg1.jpg",
     alt: "Cricket stadium view",
     hint: "cricket stadium",
   },
