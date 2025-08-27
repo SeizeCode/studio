@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Button } from "@/components/ui/button";
 import { CalendarDays, Clock, MapPin } from "lucide-react";
 import Link from "next/link";
+import BackgroundCarousel from "../background-carousel";
 
 const events = [
   {
@@ -38,9 +39,9 @@ export default function EventsSection() {
   return (
     <section 
       id="events" 
-      className="py-16 md:py-24 relative bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: "url('/events-background.jpg')" }}
+      className="py-16 md:py-24 relative"
     >
+      <BackgroundCarousel />
       <div className="absolute inset-0 bg-primary/80 z-0"></div>
       <div className="container mx-auto max-w-7xl px-4 relative z-10">
         <div className="text-center mb-12">
