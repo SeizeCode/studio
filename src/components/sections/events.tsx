@@ -36,17 +36,23 @@ const events = [
 
 export default function EventsSection() {
   return (
-    <section id="events" className="py-16 md:py-24 bg-secondary">
-      <div className="container mx-auto max-w-7xl px-4">
+    <section 
+      id="events" 
+      className="py-16 md:py-24 relative bg-cover bg-center bg-fixed"
+      style={{ backgroundImage: "url('https://picsum.photos/1280/720?grayscale&blur=2')" }}
+      data-ai-hint="cricket stadium floodlights"
+    >
+      <div className="absolute inset-0 bg-primary/80 z-0"></div>
+      <div className="container mx-auto max-w-7xl px-4 relative z-10">
         <div className="text-center mb-12">
-          <h2 className="font-headline text-4xl md:text-5xl font-bold">Upcoming Events</h2>
-          <p className="text-lg text-muted-foreground mt-4 max-w-2xl mx-auto">
+          <h2 className="font-headline text-4xl md:text-5xl font-bold text-white">Upcoming Events</h2>
+          <p className="text-lg text-primary-foreground/90 mt-4 max-w-2xl mx-auto">
             Don't miss out on our exciting camps, workshops, and masterclasses.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {events.map((event, index) => (
-            <Card key={index} className="flex flex-col">
+            <Card key={index} className="flex flex-col bg-card/90 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="font-headline text-2xl">{event.title}</CardTitle>
                 <CardDescription className="pt-2">{event.description}</CardDescription>
