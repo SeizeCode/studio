@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const facilities = [
   {
-    name: "Indoor Nets",
+    name: "Batting Nets",
     image: "/logo.png",
     hint: "cricket nets",
   },
@@ -41,8 +41,8 @@ export default function FacilitiesSection() {
           <h2 className="font-headline text-5xl md:text-5xl font-bold">Our Best Facilities</h2>
           <p className="text-lg text-muted-foreground mt-4 max-w-2xl mx-auto">
             Train in an environment built for champions, with state-of-the-art equipment and infrastructure.
-            <br></br>
-        <hr></hr>
+           
+        
             Click to view More .. ..
           </p>
         </div>

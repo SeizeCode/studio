@@ -4,60 +4,60 @@ import Image from "next/image";
 
 const coaches = [
   {
-    name: "Nkosinathi Msiza",
+    name: "Richard Mabotja",
+    role: "Head of the Porgramme",
+    avatar: "/logo.png",
+    hint: "professional portrait",
+    bio: "...............",
+  },
+  {
+   name: "Nkosinathi Msiza",
     role: " Prestige u13A Head Coach & Batting Guru",
     avatar: "/coachnathi.png",
     hint: "professional portrait",
-    bio: "Nkosinathi Msiza's Boi here ...................",
-  },
-  {
-    name: "Gontse Phuthi",
-    role: "Pace Bowling Specialist",
-    avatar: "/logo.png",
-    hint: "professional portrait",
-    bio: "Gontse Phuthi boi here ...............",
+    bio: "...................",
   },
   {
     name: "Coach Tebatso ",
     role: "Fielding & Fitness Coach",
     avatar: "/logo.png",
     hint: "professional portrait",
-    bio: "Tebatso boi here .......................",
+    bio: ".......................",
   },
   {
-    name: "Coach #########",
+    name: "Coach ?",
     role: "Spin Bowling Virtuoso",
     avatar: "/logo.png",
     hint: "professional portrait",
-    bio: "Coach Boi here ................. ",
+    bio: " ................. ",
   },
   {
-    name: "Coach #########",
+    name: "Coach ?",
     role: "Spin Bowling Virtuoso",
     avatar: "/logo.png",
     hint: "professional portrait",
-    bio: "Coach Boi here ................. ",
+    bio: "................. ",
   },
   {
-    name: "Coach #########",
+    name: "Coach ?",
     role: "Spin Bowling Virtuoso",
     avatar: "/logo.png",
     hint: "professional portrait",
-    bio: "Coach Boi here ................. ",
+    bio: "................. ",
   },
   {
-    name: "Coach #########",
+    name: "Coach ?",
     role: "Spin Bowling Virtuoso",
     avatar: "/logo.png",
     hint: "professional portrait",
-    bio: "Coach Boi here ................. ",
+    bio: "................. ",
   },
   {
-    name: "Coach #########",
+    name: "Coach ?",
     role: "Spin Bowling Virtuoso",
     avatar: "/logo.png",
     hint: "professional portrait",
-    bio: "Coach Boi here ................. ",
+    bio: "................. ",
   },
 ];
 
@@ -68,7 +68,7 @@ export default function CoachesSection() {
         <div className="text-center mb-12">
           <h2 className="font-headline text-5xl md:text-5xl font-bold">Meet Our Coaches</h2>
           <p className="text-lg text-muted-foreground mt-4 max-w-2xl mx-auto">
-            Learn from the best in the business. Our experienced coaches are dedicated to your success.
+            Learn from the qualifed CSA National Level Candidates. Our experienced coaches are dedicated to your success.
           </p>
           <br></br>
           <hr></hr>
