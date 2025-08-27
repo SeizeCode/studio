@@ -23,11 +23,26 @@ export default function Home() {
                 <Card className="h-full">
                   <CardHeader>
                     <CardTitle className="font-headline text-3xl">
-                      Interesting Information
+                      About Prestige Cricket Academy
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p>You can add your interesting information here.</p>
+                    <div className="space-y-4 text-muted-foreground">
+                      <p>
+                        Welcome to Prestige Cricket Academy, where passion for
+                        cricket meets professional coaching. We are dedicated to
+                        nurturing young talent and developing the next
+                        generation of cricket champions.
+                      </p>
+                      <p>
+                        Our state-of-the-art facilities and experienced coaches
+                        provide an unparalleled environment for players to grow,
+                        learn, and excel. Founded on the principles of
+                        discipline, dedication, and sportsmanship, our academy
+                        offers a holistic approach to cricket training, focusing
+                        not just on skills but also on character development.
+                      </p>
+                    </div>
                   </CardContent>
                 </Card>
               </div>
