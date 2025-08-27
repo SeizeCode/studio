@@ -6,7 +6,7 @@ const coaches = [
   {
     name: "Nkosinathi Msiza",
     role: " Prestige u13A Head Coach & Batting Guru",
-    avatar: "https://picsum.photos/128/128",
+    avatar: "/coachnathi.png",
     hint: "professional portrait",
     bio: "Nkosinathi Msiza's Boi here ...................",
   },

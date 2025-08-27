@@ -13,15 +13,15 @@ import Autoplay from "embla-carousel-autoplay";
 
 const slides = [
   {
-    image: "https://picsum.photos/1920/1080",
+    image: "/logo.png",
     hint: "cricket stadium",
-    title: "Unleash Your Potential",
+    title: "Unleash Your Potentia",
     description: "Join our world-class cricket academy and train with the best.",
     buttonLabel: "Our Programs",
     buttonLink: "#courses",
   },
   {
-    image: "https://picsum.photos/1920/1080",
+    image: "/crick1.jpg",
     hint: "cricket action",
     title: "Upcoming Summer Camp",
     description: "Enroll now for our intensive summer training camp. Limited spots available!",
@@ -29,7 +29,7 @@ const slides = [
     buttonLink: "#contact",
   },
   {
-    image: "https://picsum.photos/1920/1080",
+    image: "/logo.png",
     hint: "team celebration",
     title: "Success Stories",
     description: "Discover how our alumni have achieved their dreams on the world stage.",
@@ -40,12 +40,12 @@ const slides = [
 
 export default function HeroSlider() {
   return (
-    <section className="w-full">
+    <section className="w-full h-full">
       <Carousel
-        className="w-full"
+        className="w-full h-full"
         plugins={[
           Autoplay({
-            delay: 5000,
+            delay: 2000,
             stopOnInteraction: true,
           }),
         ]}
@@ -53,15 +53,15 @@ export default function HeroSlider() {
           loop: true,
         }}
       >
-        <CarouselContent>
+        <CarouselContent className="h-[60vh] md:h-[80vh]">
           {slides.map((slide, index) => (
             <CarouselItem key={index}>
-              <div className="relative h-[60vh] md:h-[80vh] w-full">
+              <div className="relative h-full w-full">
                 <Image
                   src={slide.image}
                   alt={slide.title}
                   fill
-                  className="object-cover"
+                  className="object-cover rounded-lg"
                   data-ai-hint={slide.hint}
                   priority={index === 0}
                 />
@@ -85,6 +85,8 @@ export default function HeroSlider() {
         <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 text-white" />
         <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 text-white" />
       </Carousel>
+      
     </section>
+    
   );
 }
